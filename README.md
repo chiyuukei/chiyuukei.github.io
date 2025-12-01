@@ -1,2 +1,1 @@
-# chiyuukei.github.io
-Pagesss!!!
+## Pages~
