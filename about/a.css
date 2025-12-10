@@ -66,7 +66,14 @@ img {
     -webkit-user-drag: none;
     -webkit-touch-callout: none;
     margin: 20px 0;
-    animation: 5s infinite bounce
+    animation: 5s infinite bounce;
+    user-select: none;
+	user-drag: none;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 }
 
 @keyframes bounce {
