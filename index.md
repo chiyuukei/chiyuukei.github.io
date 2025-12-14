@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
 
-# 緊張していますか、緊張していませんか？
+## 緊張していますか、緊張していませんか？
