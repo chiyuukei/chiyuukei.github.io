@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 title: Blog
 description: ...
 show_downloads: false
+baseurl: /blog
