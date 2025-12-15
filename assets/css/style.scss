@@ -3,7 +3,15 @@
 @import "{{ site.theme }}";
 
 body {
-  background: #101010;
+  background: #FAFFFB;
+}
+
+a {
+  color: #BDFFCD;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .site-footer {
