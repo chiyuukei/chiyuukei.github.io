@@ -55,3 +55,20 @@
 .site-footer {
   display: none;
 }
+
+footer {
+    margin: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin-top: 30px;
+    max-width: 600px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    outline: 5px double #00ff00;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1px 10px;
+    box-shadow: 0 0 0 0.25em rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
