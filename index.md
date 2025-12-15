@@ -10,10 +10,14 @@ title: Blog
 
 
 
-<div class="footer">
-            <p>
-                &copy;&nbsp;<script>
-                    document.write(new Date().getFullYear())
-                </script>&nbsp;<a href="#">ゆう</a>.&nbsp;All rights reserved.
-            </p>
-        </div>
+
+
+<br />
+
+<br />
+
+<br />
+
+----
+
+<div class="footer"><p>&copy;&nbsp;<script>document.write(new Date().getFullYear())</script>&nbsp;<a href="#">ゆう</a>.&nbsp;無断転載を禁じます。</p></div>
