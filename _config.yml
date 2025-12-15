@@ -5,4 +5,5 @@ show_downloads: false
 hide_github: true
 
 buttons:
+  - text: " "
     href: "https://github.com/chiyuukei/blog/"
