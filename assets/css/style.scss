@@ -36,10 +36,19 @@ a:hover {
   color: #444;
 }
 
-.btn,
+/*.btn,
 .btn:hover{
   text-transform: uppercase;
+}*/
+
+.btn {
+  font-size: 0;
 }
+
+.btn::after {
+  content: "🍙";
+  font-size: 16px;
+}   
 
 hr {
   background-color: #B9E4BF !important;
