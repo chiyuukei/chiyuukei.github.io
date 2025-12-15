@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: お客様、ようこそ！
 ---
 
 ## 緊張していますか、緊張していませんか？
