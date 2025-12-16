@@ -2,7 +2,7 @@
 ---
 
 $header-bg-color: #E0BDFF;
-$header-bg-color-secondary: #AD52FF;
+$header-bg-color-secondary: transparent;
 $header-heading-color: #FFFFFF;
 
 @import "{{ site.theme }}";
@@ -54,8 +54,4 @@ hr {
   background-color: #B9E4BF !important;
   height: 1px;
   border: 0;
-}
-
-.footer {
-    border-top: 1px solid #333;
 }
