@@ -4,6 +4,11 @@ description: ここは、私がゴミ捨て場を手を入れて遊び場にし�
 show_downloads: false
 hide_github: true
 
+collections:
+  blog:
+    output: true
+    permalink: /blog/:title/
+
 buttons:
   - text: ""
     href: "https://github.com/chiyuukei/blog/"
