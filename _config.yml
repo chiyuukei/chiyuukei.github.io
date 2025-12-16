@@ -15,6 +15,6 @@ buttons:
 remote_theme: pages-themes/cayman
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
-baseurl: ""
 url: https://chiyuukei.github.io
