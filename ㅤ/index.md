@@ -10,3 +10,7 @@ title: Blog Archive
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+<br />
+<br />
+<br />
