@@ -114,9 +114,11 @@ h6 {
   user-select: none;
 }
 
-/*.page-header {
-  background: transparent;
-} */
+.page-header {
+  /*background: transparent;*/
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
 
 .footer {
   background-color: transparent;
