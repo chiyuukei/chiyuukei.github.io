@@ -69,8 +69,11 @@ a:hover {
 }
 
 .site-footer {
-  display: none;
-  background-color: transparent !important;
+  /*display: none;*/
+  background-color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 ::selection {
