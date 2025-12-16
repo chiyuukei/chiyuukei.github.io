@@ -5,6 +5,8 @@ title: Blog Archive
 
 ## アーカイブ／コンテンツへのリンク集
 
-- <a href="./A/">A</a>
-- <a href="./B/">B</a>
-- <a href="./C/">C</a>
+<ul>
+  {% for post in site.blog %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
