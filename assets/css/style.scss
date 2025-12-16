@@ -8,13 +8,13 @@ $header-heading-color: #FFFFFF;
 @import "{{ site.theme }}";
 
 body {
-  background: #FAFFFB;
+  background: #FDFAFF;
   color: #444;
   font-family: Courier New;
 }
 
 a {
-  color: #00BF2E;
+  color: #9800FF;
   cursor: none;
   user-select: none;
   text-decoration: none;
@@ -22,9 +22,9 @@ a {
 
 a:hover {
   color: inherit;
-  background: #E1FFE3;
+  background: #F3ECFF;
   text-decoration: none;
-  border-bottom: 1px solid #00BF2E;
+  border-bottom: 1px solid #9800FF;
 }
 
 .site-footer {
@@ -32,7 +32,7 @@ a:hover {
 }
 
 ::selection {
-  background: #E1FFE3;
+  background: #EBCCFF;
   color: #444;
 }
 
@@ -54,4 +54,8 @@ hr {
   background-color: #B9E4BF !important;
   height: 1px;
   border: 0;
+}
+
+.footer {
+    border-top: 1px solid #333;
 }
