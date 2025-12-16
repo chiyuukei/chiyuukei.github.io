@@ -39,7 +39,9 @@ body::before {
   background: url('https://raw.githubusercontent.com/chiyuukei/blog/refs/heads/main/assets/img/KochiyaSanae.png') no-repeat center center fixed;
   background-size: cover;
   opacity: 0.1;
-  z-index: -1;
+  /*z-index: -1;*/
+  z-index: -2;
+  pointer-events: none;
 }
 
 @media (max-width: 768px) {
@@ -119,6 +121,8 @@ h6 {
 
 .page-header {
   backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 1;
   /*background: transparent;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;*/
