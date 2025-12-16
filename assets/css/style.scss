@@ -80,6 +80,7 @@ a:hover {
 
 .btn,
 .btn:hover{
+  user-select: none;
   text-transform: uppercase;
 }
 
@@ -90,7 +91,7 @@ a:hover {
   text-align: center;
   /*display: inline-flex;
   min-width: 44px;*/
-  border-radius: 50px;
+  border-radius: 100px;
 }
 
 .btn::after {
