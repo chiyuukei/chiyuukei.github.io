@@ -6,7 +6,7 @@ hide_github: true
 collections:
   blog:
     output: true
-    permalink: /blog/:title/
+    permalink: /:title/
 
 buttons:
   - text: ""
