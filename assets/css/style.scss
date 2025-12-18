@@ -9,7 +9,8 @@ $header-bg-color-secondary: rgba(147, 112, 219, 0.9);
 $header-bg-color-secondary: #9370DB;*/
 $header-heading-color: #FFFFFF;
 $section-headings-color: #9800FF;
-$code-bg-color: #f5f0ff;
+/*$code-bg-color: #f5f0ff;*/
+$code-bg-color: #FFFFFF;
 $code-text-color: #333;
 
 @import "{{ site.theme }}";
@@ -132,3 +133,8 @@ h6 {
 /*.footer {
   background-color: transparent;
 }*/
+
+pre, 
+code {
+  border-radius: 10px;
+}
