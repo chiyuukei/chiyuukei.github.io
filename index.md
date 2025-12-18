@@ -57,6 +57,7 @@ title: お客様、ようこそ！
 <br />
 <br />
 <div align="center">
-<a href="./ㅤ/">← 戻る</a>&emsp;
+<a href="/">← 戻る</a>&emsp;
+<a href="/blog/">🏠</a>&emsp;
 <a href="./ㅤ/">投稿へ →</a>
 </div>
