@@ -55,6 +55,8 @@ title: お客様、ようこそ！
 
 
 <br />
-<br /> 
+<br />
+<center>
 <a href="/" class="btn">← 戻る</a> 
 <a href="./ㅤ/" class="btn">投稿へ →</a>
+</center>
