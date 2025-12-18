@@ -107,7 +107,7 @@ a:hover {
 
 hr {
   /*background-color: #D1D1D1 !important;*/
-  background-color: -webkit-linear-gradient(left, #F3DDFF, #CF77FF, #CF77FF, #F3DDFF);
+  background-image: linear-gradient(to right, #F3DDFF, #CF77FF, #F3DDFF);
   height: 1px;
   border: 0;
 }
