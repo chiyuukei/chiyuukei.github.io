@@ -25,10 +25,11 @@ categories: [hosting]
 - https://freewebhostingpro.com
 - https://freehostia.com 
 - https://freeweb7.com
-- GitHub Pages
+- GitHub
+- Blogger
 - Netlify
 - Vercel
-- GitLab Pages
+- GitLab
 - Firebase Hosting
 - https://neocities․org
 - https://gitbook.io
