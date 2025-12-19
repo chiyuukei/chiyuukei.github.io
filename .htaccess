@@ -1,1 +1,11 @@
+SetEnvIfNoCase User-Agent ".*" bad_bot
+
+SetEnvIfNoCase User-Agent "bot|crawl|spider|scraper|slurp|crawler" bad_bot
+
+SetEnvIfNoCase Accept-Encoding ".*" bad_bot
+
+Order Allow,Deny
+Allow from ALL
+Deny from env=bad_bot
+
 ErrorDocument 404 /404.html
