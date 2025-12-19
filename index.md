@@ -62,6 +62,11 @@ title: お客様、ようこそ！
 
 >_君はきっと、俺のことを調べたりしないくらいには賢いよね ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧_
 
+<ul>
+  <li><a href="/">Instagram</a></li>
+  <li><a href="/">X</a></li>
+  <li><a href="/">Discord</a></li>
+</ul>
 
 <br />
 <br />
