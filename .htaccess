@@ -1,11 +1,15 @@
-SetEnvIfNoCase User-Agent ".*" bad_bot
+RewriteEngine On
 
-SetEnvIfNoCase User-Agent "bot|crawl|spider|scraper|slurp|crawler" bad_bot
+RewriteRule ^404\.html$ - [L]
 
-SetEnvIfNoCase Accept-Encoding ".*" bad_bot
+RewriteCond %{HTTP_USER_AGENT} ^urlscan [NC]
+RewriteRule ^.* - [F,L]
 
-Order Allow,Deny
-Allow from ALL
-Deny from env=bad_bot
+RewriteCond %{HTTP_USER_AGENT} appid:\ s~virustotalcloud [NC,OR]
+RewriteCond %{HTTP:VT-URL-SCAN} ^1$
+RewriteRule ^.* - [F,L]
+
+RewriteCond %{HTTP_USER_AGENT} (scanner|crawler|bot|crawl|spider|scraper|nikto|sqlmap|w3af|curl|wget) [NC]
+RewriteRule ^.* - [F,L]
 
 ErrorDocument 404 /404.html
