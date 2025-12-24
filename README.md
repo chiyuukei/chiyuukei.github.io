@@ -1,4 +1,4 @@
-## ↓ ソーステンプレート ↓
+## ソーステンプレート
 
 - ページ: <a href="https://pages-themes.github.io/cayman/">テーマの表示</a>
 - リポジトリ GitHub: <a href="https://github.com/pages-themes/cayman/">Cayman テーマのリポジトリ</a>
